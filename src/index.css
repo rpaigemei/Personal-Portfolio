@@ -1,0 +1,15 @@
+:root {
+  --color-light: #FFFAF6;
+  --color-dark: #454545;
+  --color-1: #7690A8;
+  --color-2: #8B9170;
+  --color-3: #EAC7C7;
+  --color-4: #C07E7E;
+
+  --font-heading: 'Petit Formal Sans', cursive;
+  --font-body: 'Karla', sans-serif;
+}
+
+body {
+  margin: 0;
+}
