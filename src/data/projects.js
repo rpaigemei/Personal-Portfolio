@@ -32,7 +32,7 @@ export const projects = [
         id: "the-hidden-picture",
         name: "The Hidden Picture",
         thumbnail: hiddenPicture,
-        tagline: "A hidden object game where players have to look through a collage of public domain images to uncover objects.",
+        tagline: "A hidden object game where players have to look through a collage of images to uncover objects.",
         website: "link here",
         code: "link here",
         overview: "overview here",
