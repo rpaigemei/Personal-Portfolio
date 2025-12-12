@@ -3,11 +3,13 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 // pages
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import Project from "./pages/Project";
 import Contact from "./pages/Contact";
 
 function MotionDiv({ children }) {
@@ -36,9 +38,12 @@ export default function App() {
                     <Route path="/" element={ <MotionDiv> <Home /> </MotionDiv> } />
                     <Route path="/about" element={ <MotionDiv> <About /> </MotionDiv> } />
                     <Route path="/projects" element={ <MotionDiv> <Projects /> </MotionDiv> } />
+                    <Route path="/projects/:id" element={ <MotionDiv> <Project /> </MotionDiv> } />
                     <Route path="/contact" element={ <MotionDiv> <Contact /> </MotionDiv> } />
                 </Routes>
             </AnimatePresence>
+
+            <Footer />
         </div>
     )
 }
