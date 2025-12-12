@@ -13,14 +13,14 @@ export default function Home() {
 
     return (
         <div className="page">
-            <div className="introduction">
+            <div className="header">
                 <div className="side pattern-bg">
                     <img src={Headshot} alt="Headshot" className="img"/>
                 </div>
                 <div className="side">
                     <img src={Logo} alt="PR Logo" className="logo"/>
 
-                    <div className="text">
+                    <div className="text center-align">
                         <div className="heading">
                             Hello, I'm Paige Reeves
                         </div>
@@ -58,7 +58,7 @@ export default function Home() {
             </div>
 
             <div className="gallery pattern-bg">
-                <div className="content">
+                <div className="text-box">
                     <div className="heading">
                         Graphic Design Gallery
                     </div>
