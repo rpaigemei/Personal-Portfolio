@@ -1,11 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
-import { projects } from "../data/projects";
+import projects from "../data/projects";
 import Headshot from "../assets/headshot-frame.png";
 import Logo from "../assets/logos/logo-color.png";
 import ProjectCard from "../components/ProjectCard";
-import Banner from "../components/Marquee";
+import MarqueeDivider from "../components/Marquee";
 import Gallery from "../components/Gallery";
 
 export default function Home() {
@@ -37,7 +37,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <Banner words={words} />
+            <MarqueeDivider words={words} />
 
             <div className="projects">
                 <div className="heading">

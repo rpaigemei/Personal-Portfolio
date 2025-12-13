@@ -1,0 +1,200 @@
+[
+  {
+    "id": "pinvasion",
+    "name": "Pinvasion",
+    "thumbnail": "/thumbnails/pinvasion.png",
+    "frame": "/thumbnails/pinvasion-frame.png",
+    "tagline": "A game that challenges players to preserve the authenticity of a Pinterest-style feed by removing invasive ads.",
+    "website": "https://pinvasion.netlify.app/",
+    "code": "https://github.com/rpaigemei/Pinvasion",
+    "overview": "Pinvasion is a game where players try to preserve the authenticity of a Pinterest-style feed by removing the invasive ads. As ads multiply and scroll faster each wave, players must keep the feed “alive” in a platform where commercial content is quietly taking over. It mimics the recognizable aesthetic of Pinterest to critique the growing amount of ads present in popular social media platforms and how they seamlessly blend into the feeds.",
+    "purpose": "This project was created for DIG6647: History & Theory of Dynamic Media, where we were tasked with developing a culture-jam video game.",
+    "pictures": [
+      "/screenshots/pinvasion/1.png",
+      "/screenshots/pinvasion/2.png",
+      "/screenshots/pinvasion/3.png"
+    ],
+    "technologies": [
+      "Web Development",
+      "Game Design",
+      "React.js",
+      "Vite",
+      "JavaScript",
+      "HTML/CSS"
+    ],
+    "next": "lyracle"
+  },
+  {
+    "id": "lyracle",
+    "name": "Lyracle",
+    "thumbnail": "/thumbnails/lyracle.png",
+    "frame": "/thumbnails/lyracle-frame.png",
+    "tagline": "A musical tarot that shuffles your songs into a past-present-future reading.",
+    "website": "https://lyracle.netlify.app/",
+    "code": "https://github.com/rpaigemei/Lyracle",
+    "overview": "Lyracle is an interactive experience that transforms the tarot card reading format with music. Rather than traditional cards, this program randomly selects songs to form a three-card spread of past, present, and future. The concept of this work is to combine the symbolism of tarot with the randomness of shuffling music.",
+    "purpose": "This project was created for DIG6647: History & Theory of Dynamic Media, where we had to utilize chance operations in our system.",
+    "pictures": [
+      "/screenshots/lyracle/1.png",
+      "/screenshots/lyracle/2.png"
+    ],
+    "technologies": [
+      "Web Development",
+      "React.js",
+      "JavaScript",
+      "HTML/CSS"
+    ],
+    "prev": "pinvasion",
+    "next": "the-hidden-picture"
+  },
+  {
+    "id": "the-hidden-picture",
+    "name": "The Hidden Picture",
+    "thumbnail": "/thumbnails/hidden-picture.png",
+    "frame": "/thumbnails/hidden-picture-frame.png",
+    "tagline": "A hidden object game where players have to look through a collage of images to uncover objects.",
+    "website": "https://editor.p5js.org/paigereeves/full/CfGr0PtZA",
+    "code": "https://github.com/rpaigemei/DIG5508-Project2",
+    "overview": "The Hidden Picture is a hidden object game where players have to look through a collage of public domain images to find a set of objects. The game also features a stopwatch, personal statistics, and music choices.",
+    "purpose": "This project was developed for DIG5508: Programming for Digital Media, where we had to incorporate public domain images into an interactive experience.",
+    "pictures": [
+      "/screenshots/hidden-picture/1.png",
+      "/screenshots/hidden-picture/2.png"
+    ],
+    "technologies": [
+      "Game Design",
+      "p5.js",
+      "JavaScript"
+    ],
+    "prev": "lyracle",
+    "next": "cookxp"
+  },
+  {
+    "id": "cookxp",
+    "name": "CookXP",
+    "thumbnail": "/thumbnails/cookxp.png",
+    "frame": "/thumbnails/cookxp-frame.png",
+    "tagline": "A gamified recipe platform where users earn points, badges, and chef ranks by completing recipes.",
+    "website": "https://cookxpfrontend.onrender.com/",
+    "overview": "CookXP is a gamified recipe platform to help motivate users to learn how to cook. They are able to earn points for completing each recipe and climb the chef ranks from junior chef to executive chef. Users can also earn badges after reaching certain levels and completing achievements.",
+    "purpose": "Through CIS4930: Internet Programming, our final project required us to develop a web application using an API. My team decided to create a recipe website using the TheMealDB API. I was responsible for the interface design and implementation.",
+    "pictures": [
+      "/screenshots/cookxp/1.png",
+      "/screenshots/cookxp/2.png",
+      "/screenshots/cookxp/3.png",
+      "/screenshots/cookxp/4.png",
+      "/screenshots/cookxp/5.png",
+      "/screenshots/cookxp/6.png",
+      "/screenshots/cookxp/7.png",
+      "/screenshots/cookxp/8.png"
+    ],
+    "technologies": [
+      "UX Design",
+      "Figma"
+    ],
+    "prev": "the-hidden-picture",
+    "next": "matchbook"
+  },
+  {
+    "id": "matchbook",
+    "name": "Matchbook",
+    "thumbnail": "/thumbnails/matchbook.png",
+    "frame": "/thumbnails/matchbook-frame.png",
+    "tagline": "A swipe-based mobile app that helps students match with their ideal study partner.",
+    "code": "https://github.com/WiCSE-Design-Team/Matchbook",
+    "overview": "Matchbook is a mobile application designed to help students find study partners, modeled after the swipe-based format of a dating app. The app aimed to feature user authentication, ability to match and pass with other students, and in-app messaging with matches.",
+    "purpose": "This mobile application was developed during a year-long design team through Women in Computer Science and Engineering (WiCSE), where I was honored to be a team lead.",
+    "pictures": [
+      "/screenshots/matchbook/1.png",
+      "/screenshots/matchbook/2.png",
+      "/screenshots/matchbook/3.png"
+    ],
+    "technologies": [
+      "Mobile App Development",
+      "React Native",
+      "Expo Go",
+      "JavaScript",
+      "Firebase"
+    ],
+    "prev": "cookxp",
+    "next": "unisphere"
+  },
+  {
+    "id": "unisphere",
+    "name": "Unisphere",
+    "thumbnail": "/thumbnails/unisphere.png",
+    "frame": "/thumbnails/unisphere-frame.png",
+    "tagline": "A centralized platform that connects applicants with current students, alumni, and reps.",
+    "overview": "Unisphere is a prototype designed to help prospective students access clear, relevant, and verified information about colleges, financial aid, campus life, and student communities.",
+    "purpose": "This prototype was created for DIG3124: Principles of Interaction & Usability. We were responsible for creating a prototype and conducting informal testing on it.",
+    "pictures": [
+      "/screenshots/unisphere/1.png",
+      "/screenshots/unisphere/2.png",
+      "/screenshots/unisphere/3.png",
+      "/screenshots/unisphere/4.png",
+      "/screenshots/unisphere/5.png",
+      "/screenshots/unisphere/6.png",
+      "/screenshots/unisphere/7.png",
+      "/screenshots/unisphere/8.png",
+      "/screenshots/unisphere/9.png",
+      "/screenshots/unisphere/10.png"
+    ],
+    "technologies": [
+      "UX Design",
+      "Figma"
+    ],
+    "prev": "matchbook",
+    "next": "doodlenaut"
+  },
+  {
+    "id": "doodlenaut",
+    "name": "Doodlenaut",
+    "thumbnail": "/thumbnails/doodlenaut.png",
+    "frame": "/thumbnails/doodlenaut-frame.png",
+    "tagline": "Usability testing of a children's character customization interface.",
+    "code": "https://github.com/rpaigemei/cen4721-project",
+    "overview": "Doodlenaut is a children's character customization prototype that helps players customize the personality/attitudes of their chosen character. We conducted A/B testing on two designs, in which the independent variable was the complexity of character customization. Design A uses a grid-based trait selection system, while Design B incorporates sliders for customization. The study used the System Usability Scale (SUS), Customization Complexity Perceived Ease, Task Completion Time, and Perceived Satisfaction to measure usability. Users were given three tasks and were directed through each. Design B outperformed Design A in most metrics, including SUS score, ease of customization, and perceived satisfaction. However, it took slightly longer to complete, indicating that while it provided a richer and more customizable experience, it might be more time-consuming. Design A, while faster and simpler, did not offer as satisfying or flexible an experience.",
+    "purpose": "This prototype was created for CEN4721: Human-Computer Interaction, where we were tasked with creating prototypes and conducting usability tests throughout the semester with a group",
+    "pictures": [
+      "/screenshots/doodlenaut/1.png",
+      "/screenshots/doodlenaut/2.png",
+      "/screenshots/doodlenaut/3.png"
+    ],
+    "technologies": [
+      "Usability Testing",
+      "UX Design",
+      "Figma"
+    ],
+    "prev": "unisphere",
+    "next": "pearly-pets"
+  },
+  {
+    "id": "pearly-pets",
+    "name": "Pearly Pets",
+    "thumbnail": "/thumbnails/pearly-pets.png",
+    "frame": "/thumbnails/pearly-pets-frame.png",
+    "tagline": "A web platform that helps people discover and adopt senior pets.",
+    "website": "https://pearlypets.netlify.app/",
+    "code": "https://github.com/rpaigemei/pearly-pets",
+    "overview": "Pearly Pets is a web application that helps people discover and adopt senior pets. It also contains information about the application, resources for owners, and a contact page.",
+    "purpose": "This project was developed during my Professional Shadowing Mentorship through Women in Computer Science and Engineering (WiCSE).",
+    "pictures": [
+      "/screenshots/pearly-pets/1.png",
+      "/screenshots/pearly-pets/2.png",
+      "/screenshots/pearly-pets/3.png",
+      "/screenshots/pearly-pets/4.png",
+      "/screenshots/pearly-pets/5.png",
+      "/screenshots/pearly-pets/6.png",
+      "/screenshots/pearly-pets/7.png"
+    ],
+    "technologies": [
+      "Web Development",
+      "React.js",
+      "Petfinder API",
+      "JavaScript",
+      "HTML/CSS"
+    ]
+    ,
+    "prev": "doodlenaut"
+  }
+]

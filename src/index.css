@@ -402,7 +402,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding: 50px 100px;
   gap: 50px;
 
   color: var(--color-1);
@@ -595,6 +595,83 @@ button {
 
     &:hover {
       box-shadow: 0 0 5px var(--color-4);
+    }
+  }
+}
+
+.project-page {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px;
+  gap: 50px;
+
+  color: var(--color-2);
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    .links {
+      display: flex;
+      gap: 50px;
+
+      .link {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        
+        color: var(--color-5);
+
+        .icon {
+          font-size: 15px;
+        }
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .overview {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+
+    .picture {
+      width: 100%;
+      max-width: 1000px;
+
+      border-radius: 10px;
+      border: 1px solid var(--color-2);
+    }
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+
+    .control {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+
+      .arrow {
+        color: var(--color-5);
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
