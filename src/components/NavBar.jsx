@@ -12,6 +12,9 @@ export default function NavBar() {
             </NavLink>
 
             <div className="tabs">
+                <NavLink to="/" className="tab">
+                    Home
+                </NavLink>
                 <NavLink to="/about" className="tab">
                     About
                 </NavLink>
