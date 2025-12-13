@@ -13,7 +13,9 @@ export default function Footer() {
                 <img src={Logo} alt="PR Logo" className="logo" />
             </NavLink>
 
-            © 2025 Paige Reeves
+            <a href="https://github.com/rpaigemei/Personal-Portfolio" target="_blank" className="credit">
+                © 2025 Paige Reeves
+            </a>
 
             <div className="socials">
                 <a href="https://github.com/rpaigemei" target="_blank">
