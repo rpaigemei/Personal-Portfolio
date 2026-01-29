@@ -40,7 +40,17 @@ export default function Project() {
                                 <a href={project.website} target="_blank" className="link">
                                     <FaGlobe className="icon" />
 
-                                    Visit Website
+                                    {project.type === "site" &&
+                                        <div>
+                                            Visit Website
+                                        </div>
+                                    }
+
+                                    {project.type === "prototype" &&
+                                        <div>
+                                            View Prototype
+                                        </div>
+                                    }
                                 </a>
                             }
                             {project.id === "doodlenaut" &&

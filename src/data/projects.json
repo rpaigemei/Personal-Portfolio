@@ -5,6 +5,7 @@
     "thumbnail": "/thumbnails/pinvasion.png",
     "frame": "/thumbnails/pinvasion-frame.png",
     "tagline": "A game that challenges players to preserve the authenticity of a Pinterest-style feed by removing invasive ads.",
+    "type": "site",
     "website": "https://pinvasion.netlify.app/",
     "code": "https://github.com/rpaigemei/Pinvasion",
     "overview": "Pinvasion is a game where players try to preserve the authenticity of a Pinterest-style feed by removing the invasive ads. As ads multiply and scroll faster each wave, players must keep the feed “alive” in a platform where commercial content is quietly taking over. It mimics the recognizable aesthetic of Pinterest to critique the growing amount of ads present in popular social media platforms and how they seamlessly blend into the feeds.",
@@ -22,6 +23,30 @@
       "JavaScript",
       "HTML/CSS"
     ],
+    "next": "snapmetrics"
+  },
+  {
+    "id": "snapmetrics",
+    "name": "Snap Metrics",
+    "thumbnail": "/thumbnails/snapmetrics.png",
+    "frame": "/thumbnails/snapmetrics-frame.png",
+    "tagline": "A data visualization platform for UF College of Medicine researchers & administrators.",
+    "type": "prototype",
+    "website": "https://www.figma.com/proto/QYjbTqeKpgEm0pZFm2Rhkn/SnapMetrics-Prototype?node-id=1-709&t=QAQlnWY0BEOgiexu-1",
+    "overview": "Snap Metrics is a data visualization platform for UF College of Medicine researchers and administraters. It provides a comprehensive, data-driven view of space utilization and academic activity to enhance strategic planning and optimize departmental efficiency.",
+    "purpose": "This prototype mirrors the final implementation and adheres closely to UF brand guidelines. It focuses on key interactions and user flows, helping make the overall direction clear before moving into full development.",
+    "pictures": [
+      "/screenshots/snapmetrics/1.png",
+      "/screenshots/snapmetrics/2.png",
+      "/screenshots/snapmetrics/3.png",
+      "/screenshots/snapmetrics/4.png",
+      "/screenshots/snapmetrics/5.png"
+    ],
+    "technologies": [
+      "UX Design",
+      "Figma"
+    ],
+    "prev": "pinvasion",
     "next": "lyracle"
   },
   {
@@ -30,6 +55,7 @@
     "thumbnail": "/thumbnails/lyracle.png",
     "frame": "/thumbnails/lyracle-frame.png",
     "tagline": "A musical tarot that shuffles your songs into a past-present-future reading.",
+    "type": "site",
     "website": "https://lyracle.netlify.app/",
     "code": "https://github.com/rpaigemei/Lyracle",
     "overview": "Lyracle is an interactive experience that transforms the tarot card reading format with music. Rather than traditional cards, this program randomly selects songs to form a three-card spread of past, present, and future. The concept of this work is to combine the symbolism of tarot with the randomness of shuffling music.",
@@ -44,7 +70,54 @@
       "JavaScript",
       "HTML/CSS"
     ],
-    "prev": "pinvasion",
+    "prev": "snapmetrics",
+    "next": "myRA"
+  },
+  {
+    "id": "myRA",
+    "name": "myRA",
+    "thumbnail": "/thumbnails/myRA.png",
+    "frame": "/thumbnails/myRA-frame.png",
+    "tagline": "A data-driven dashboard for research administrators to manage PI accounts and Payroll Requests.",
+    "type": "prototype",
+    "website": "https://www.figma.com/proto/5Qpv1zIA7P1VwPOudyNJRg/myRA-Prototype?node-id=0-1&t=UuuOdN4sYfsUO2JU-1",
+    "overview": "myRA is a data-driven dashboard for research administrators to manage Principal Investigator (PI) accounts and Payroll Requests. The platform centralizes information about research project statuses, current balances, and account details, enabling administrators to quickly identify issues, track progress, and make informed decisions.",
+    "purpose": "This prototype reflects the final implementation, which features interactive visualizations and data views that allow users to explore project and payroll information. It adheres closely to UF brand guidelines, ensuring a consistent and professional look that aligns with existing UF-COM-OR platforms. Additionally, the interface supports both light and dark modes.",
+    "pictures": [
+      "/screenshots/myRA/1.png",
+      "/screenshots/myRA/2.png",
+      "/screenshots/myRA/3.png",
+      "/screenshots/myRA/4.png"
+    ],
+    "technologies": [
+      "UX Design",
+      "Figma"
+    ],
+    "prev": "lyracle",
+    "next": "msr"
+  },
+  {
+    "id": "msr",
+    "name": "My Surgery Risk",
+    "thumbnail": "/thumbnails/msr.png",
+    "frame": "/thumbnails/msr-frame.png",
+    "tagline": "An AI-powered platform that helps doctors predict and manage surgical complications.",
+    "type": "prototype",
+    "website": "https://www.figma.com/proto/OstrL45LV8eEfHx61frmPP/MSR-Prototype?node-id=0-1&t=PTjt70sM0YJWbWXG-1",
+    "overview": "My Surgery Risk is an AI-powered platform that helps doctors predict and manage surgical complications. The algorithm calculates the risk of eight major postoperative complications and provides detailed patient summaries.",
+    "purpose": "The prototype features a UF brand–aligned interface with clean, easy-to-read data views that allow doctors to quickly access critical information at a glance. Interactive visualizations highlight key risk factors and predicted outcomes, enabling clinicians to efficiently interpret complex data and support informed decision-making.",
+    "pictures": [
+      "/screenshots/msr/1.png",
+      "/screenshots/msr/2.png",
+      "/screenshots/msr/3.png",
+      "/screenshots/msr/4.png",
+      "/screenshots/msr/5.png"
+    ],
+    "technologies": [
+      "UX Design",
+      "Figma"
+    ],
+    "prev": "myRA",
     "next": "the-hidden-picture"
   },
   {
@@ -53,6 +126,7 @@
     "thumbnail": "/thumbnails/hidden-picture.png",
     "frame": "/thumbnails/hidden-picture-frame.png",
     "tagline": "A hidden object game where players have to look through a collage of images to uncover objects.",
+    "type": "site",
     "website": "https://editor.p5js.org/paigereeves/full/CfGr0PtZA",
     "code": "https://github.com/rpaigemei/DIG5508-Project2",
     "overview": "The Hidden Picture is a hidden object game where players have to look through a collage of public domain images to find a set of objects. The game also features a stopwatch, personal statistics, and music choices.",
@@ -66,33 +140,7 @@
       "p5.js",
       "JavaScript"
     ],
-    "prev": "lyracle",
-    "next": "cookxp"
-  },
-  {
-    "id": "cookxp",
-    "name": "CookXP",
-    "thumbnail": "/thumbnails/cookxp.png",
-    "frame": "/thumbnails/cookxp-frame.png",
-    "tagline": "A gamified recipe platform where users earn points, badges, and chef ranks by completing recipes.",
-    "website": "https://cookxpfrontend.onrender.com/",
-    "overview": "CookXP is a gamified recipe platform to help motivate users to learn how to cook. They are able to earn points for completing each recipe and climb the chef ranks from junior chef to executive chef. Users can also earn badges after reaching certain levels and completing achievements.",
-    "purpose": "Through CIS4930: Internet Programming, our final project required us to develop a web application using an API. My team decided to create a recipe website using the TheMealDB API. I was responsible for the interface design and implementation.",
-    "pictures": [
-      "/screenshots/cookxp/1.png",
-      "/screenshots/cookxp/2.png",
-      "/screenshots/cookxp/3.png",
-      "/screenshots/cookxp/4.png",
-      "/screenshots/cookxp/5.png",
-      "/screenshots/cookxp/6.png",
-      "/screenshots/cookxp/7.png",
-      "/screenshots/cookxp/8.png"
-    ],
-    "technologies": [
-      "UX Design",
-      "Figma"
-    ],
-    "prev": "the-hidden-picture",
+    "prev": "msr",
     "next": "matchbook"
   },
   {
@@ -116,7 +164,7 @@
       "JavaScript",
       "Firebase"
     ],
-    "prev": "cookxp",
+    "prev": "the-hidden-picture",
     "next": "unisphere"
   },
   {
@@ -125,6 +173,8 @@
     "thumbnail": "/thumbnails/unisphere.png",
     "frame": "/thumbnails/unisphere-frame.png",
     "tagline": "A centralized platform that connects applicants with current students, alumni, and reps.",
+    "type": "prototype",
+    "website": "https://www.figma.com/proto/zpKB7g16MlZJmQXNHPjR1G/DIG3124-UNISPHERE-Prototype?node-id=0-1&t=zKLMlkukO0P2NDgs-1",
     "overview": "Unisphere is a prototype designed to help prospective students access clear, relevant, and verified information about colleges, financial aid, campus life, and student communities.",
     "purpose": "This prototype was created for DIG3124: Principles of Interaction & Usability. We were responsible for creating a prototype and conducting informal testing on it.",
     "pictures": [
@@ -174,6 +224,7 @@
     "thumbnail": "/thumbnails/pearly-pets.png",
     "frame": "/thumbnails/pearly-pets-frame.png",
     "tagline": "A web platform that helps people discover and adopt senior pets.",
+    "type": "site",
     "website": "https://pearlypets.netlify.app/",
     "code": "https://github.com/rpaigemei/pearly-pets",
     "overview": "Pearly Pets is a web application that helps people discover and adopt senior pets. It also contains information about the application, resources for owners, and a contact page.",
