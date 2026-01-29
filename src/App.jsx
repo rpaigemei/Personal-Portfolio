@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
+import ScrollToTop from "./components/ScrollToTop";
 
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
@@ -34,6 +35,8 @@ export default function App() {
             <NavBar />
 
             <AnimatePresence mode="wait">
+                <ScrollToTop />
+
                 <Routes location={location} key={location.pathname}>
                     <Route path="/" element={ <MotionDiv> <Home /> </MotionDiv> } />
                     <Route path="/about" element={ <MotionDiv> <About /> </MotionDiv> } />
