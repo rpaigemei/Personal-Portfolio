@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+import { FaPaperPlane } from "react-icons/fa6";
+
 export default function ContactForm() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -79,13 +81,13 @@ export default function ContactForm() {
     };
 
   return (
-    <form onSubmit={onSubmit} className="contact-form">
+    <form onSubmit={onSubmit} className="contact-form shadow-lg">
         <div className="input-container">
-            <div className="subtitle">
+            <div className="label">
                 Name
             </div>
 
-            <input className="input body"
+            <input className="input body-md"
                 name="name"
                 autoComplete="off"
                 value={name}
@@ -97,11 +99,11 @@ export default function ContactForm() {
             </div>
         </div>
         <div className="input-container">
-            <div className="subtitle">
+            <div className="label">
                 Email
             </div>
 
-            <input className="input body"
+            <input className="input body-md"
                 name="email"
                 autoComplete="off"
                 value={email}
@@ -113,11 +115,11 @@ export default function ContactForm() {
             </div>
         </div>
         <div className="input-container">
-            <div className="subtitle">
+            <div className="label">
                 Message
             </div>
 
-            <textarea className="input message body"
+            <textarea className="input message body-md"
                 name="message"
                 autoComplete="off"
                 value={message}
@@ -129,8 +131,9 @@ export default function ContactForm() {
             </div>
         </div>
 
-        <button className="button subtitle" type="submit">
+        <button className="button primary" type="submit">
             {result}
+            <FaPaperPlane />
         </button>
     </form>
   );

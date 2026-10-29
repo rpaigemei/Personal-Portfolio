@@ -1,4 +1,3 @@
-import React from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import ScrollToTop from "./components/ScrollToTop";
@@ -11,7 +10,6 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Project from "./pages/Project";
-import Contact from "./pages/Contact";
 
 function MotionDiv({ children }) {
     return (
@@ -31,7 +29,7 @@ export default function App() {
     const location = useLocation();
 
     return (
-        <div>
+        <div className="app">
             <NavBar />
 
             <AnimatePresence mode="wait">
@@ -42,7 +40,6 @@ export default function App() {
                     <Route path="/about" element={ <MotionDiv> <About /> </MotionDiv> } />
                     <Route path="/projects" element={ <MotionDiv> <Projects /> </MotionDiv> } />
                     <Route path="/projects/:id" element={ <MotionDiv> <Project /> </MotionDiv> } />
-                    <Route path="/contact" element={ <MotionDiv> <Contact /> </MotionDiv> } />
                 </Routes>
             </AnimatePresence>
 

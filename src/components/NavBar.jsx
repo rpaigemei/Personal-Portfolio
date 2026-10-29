@@ -1,17 +1,19 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 
-import Logo from "../assets/logos/logo-light.png";
+import Logo from "../assets/logos/logo-color.png";
 
 export default function NavBar() {
     
     return (
         <div className="nav-bar">
-            <NavLink to="/">
+            <NavLink to="/" className="title">
                 <img src={Logo} alt="PR Logo" className="logo" />
+                <div className="name">
+                    Paige Reeves
+                </div>
             </NavLink>
 
-            <div className="tabs">
+            <div className="tabs body-md">
                 <NavLink to="/" className="tab">
                     Home
                 </NavLink>
@@ -20,9 +22,6 @@ export default function NavBar() {
                 </NavLink>
                 <NavLink to="/projects" className="tab">
                     Projects
-                </NavLink>
-                <NavLink to="/contact" className="tab">
-                    Contact
                 </NavLink>
             </div>
         </div>

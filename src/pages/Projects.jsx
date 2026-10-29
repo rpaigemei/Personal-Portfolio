@@ -1,24 +1,27 @@
-import React from "react";
-import projects from "../data/projects";
 import ProjectCard from "../components/ProjectCard";
+
+import projects from "../data/projects";
 
 export default function Projects() {
     return (
-        <div className="page">
-            <div className="header pattern-bg all-projects">
-                <div className="text-box">
-                    <div className="text center-align">
-                        <div className="heading">
-                            My Projects
+         <div className="page">
+            <div className="hero">
+                <div className="content">
+                    <div className="title">
+                        <div className="overline">
+                            SELECTED WORK
                         </div>
-                        <div className="body">
-                            Here is a collection of my works, from UI/UX design to web development.
+                        <div className="h1">
+                            Projects
                         </div>
+                    </div>
+                    <div className="about body-md">
+                        Browse a selection of UX design and development projects. They range from data dashboards for the UF College of Medicine to games and playful interactive experiments built in class.
                     </div>
                 </div>
             </div>
-            <div className="projects">
-                <div className="cards">
+            <div className="section">
+                <div className="projects">
                     {projects.map(project => (
                         <ProjectCard project={project} key={project.id} />
                     ))}
